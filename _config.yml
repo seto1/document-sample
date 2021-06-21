@@ -2,3 +2,4 @@ remote_theme: pmarsceill/just-the-docs
 lang: ja
 title: test title
 search_enabled: true
+heading_anchors: true
