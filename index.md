@@ -1,3 +1,8 @@
+---
+title: index
+nav_order: 1
+---
+
 #  test
 
 テストドキュメント
