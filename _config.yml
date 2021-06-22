@@ -1,6 +1,7 @@
 remote_theme: pages-themes/minimal
 lang: ja
 title: test title
+url: https://seto1.github.io/document-sample
 
 kramdown:
   input: GFM
