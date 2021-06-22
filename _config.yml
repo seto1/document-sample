@@ -1,5 +1,7 @@
-remote_theme: pmarsceill/just-the-docs
+remote_theme: pages-themes/minimal
 lang: ja
 title: test title
-search_enabled: true
-heading_anchors: true
+
+kramdown:
+  input: GFM
+  hard_wrap: true
