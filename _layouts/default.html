@@ -15,7 +15,7 @@
   <body>
     <div class="wrapper">
       <header>
-        <h1><a href="{{ "/" }}">{{ site.title | default: site.github.repository_name }}</a></h1>
+        <h1><a href="{{ site.url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
 
         {% if site.logo %}
           <img src="{{site.logo | relative_url}}" alt="Logo" />
@@ -50,7 +50,7 @@
 
         開発への参加
         <ul>
-          <li><a href="/development/">ucmitz開発</a></li>
+          <li><a href="{{ site.url }}/development/">ucmitz開発</a></li>
         </ul>
       </header>
       <section>
